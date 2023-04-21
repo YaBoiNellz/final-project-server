@@ -20,6 +20,11 @@ const Campus = db.define("campus", {
 
   description: {
     type: Sequelize.STRING,
+  },
+
+  imageUrl: {
+    type: Sequelize.STRING,
+    defaultValue: "https://thumbs.dreamstime.com/b/college-campus-students-school-high-university-building-student-house-entrance-vector-illustration-116016077.jpg"
   }
 });
 
